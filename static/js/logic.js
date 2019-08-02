@@ -12,9 +12,9 @@ var url = "/api/data";
       console.log(prediction3);
 
 // set the dimensions and margins of the graph
-var width = 450
-    height = 450
-    margin = 40
+var width = 700
+    height = 700
+    margin = 150
 
 // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
 var radius = Math.min(width, height) / 2 - margin
